@@ -1,0 +1,9 @@
+# Ignore all files in the .ssh directory
+.ssh/
+
+# Ignore specific file types
+*.log
+*.tmp
+
+# Ignore a specific file
+# secrets.txt

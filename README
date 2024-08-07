@@ -1,0 +1,35 @@
+<beak> hypercube är ungefär som rap på skånska
+<beak> coolt men lite skumt
+
+How to compile (no autoconf, sorry...):
+ - Edit asio/asio.h and select what async I/O interface you wanna use.
+ - Edit Makefile.
+   - If you are on Linux, USE_LINUX_SENDFILE should be defined.
+   - If you are on Linux, using epoll (kernel >=2.6), and have a libc which
+     doesn't support them (warnings about 'epoll_* is not implemented and
+     will always fail' on linking), uncomment the AKEPOLL* lines.
+ - Maybe put that final touch to config.h.
+   It ships with DEBUG enabled. You probably want to disable this.
+
+Now make :-).
+The rest of the configuration is in your CFG_FILE (hypercube.cfg by
+default).
+
+ - anakata@anakata.hack.se || anakata@g-con.org
+
+
+-------
+Source : 
+-------
+https://en.wikipedia.org/wiki/The_Pirate_Bay#cite_note-BRw4N-55
+https://web.archive.org/web/20140422024214/https://thepiratebay.se/torrent/3903397/hypercube_tracker_by_anakata
+
+Info Hash:
+      6239CA0E6050FF14710FBADDECA2A653829359B4
+
+------
+magnet_link
+------
+magnet:?xt=urn:btih:6239ca0e6050ff14710fbaddeca2a653829359b4&dn=hypercube-dist.tar.bz2&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2F47.ip-51-68-199.eu%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2780%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2710%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2730%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+-----
+
